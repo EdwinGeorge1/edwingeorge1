@@ -3,114 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Edwin George</title>
+    <title>Edwin George | Robotics Engineer</title>
     <style>
+        :root {
+            --primary-color: #2A3B4C;
+            --secondary-color: #3D5567;
+            --accent-color: #5C8D89;
+            --text-color: #333;
+            --background-color: #F5F7FA;
+        }
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background-color: var(--background-color);
+            color: var(--text-color);
         }
+
         header {
-            background-color: #282c34;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: white;
-            padding: 20px;
+            padding: 4rem 2rem;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+
         .container {
-            padding: 20px;
-            max-width: 1000px;
-            margin: auto;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
         }
+
+        .profile-section {
+            text-align: center;
+            margin: -5rem auto 3rem;
+        }
+
         .profile-img {
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            display: block;
-            margin: 20px auto;
+            border: 5px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
         }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+        }
+
+        .section-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
         .section-title {
-            color: #4CAF50;
-            font-size: 1.5em;
-            margin-top: 20px;
+            color: var(--accent-color);
+            font-size: 1.8rem;
+            margin: 0 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-color);
         }
-        .section-content {
-            font-size: 1.1em;
-            margin-bottom: 20px;
+
+        .experience-item {
+            margin-bottom: 2rem;
+            padding-left: 1.5rem;
+            border-left: 3px solid var(--accent-color);
         }
+
+        .experience-company {
+            color: var(--secondary-color);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .experience-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .skill-tag {
+            background: var(--background-color);
+            padding: 0.8rem;
+            border-radius: 5px;
+            font-weight: 500;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
         footer {
-            background-color: #282c34;
+            background: var(--primary-color);
             color: white;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            padding: 1.5rem;
+            margin-top: 4rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .profile-section {
+                margin-top: -3rem;
+            }
+            
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>About Me - Edwin George</h1>
+        <h1>Edwin George</h1>
+        <p>Robotics Engineer | Autonomous Systems Specialist</p>
     </header>
 
     <div class="container">
-        <img src="https://avatars.githubusercontent.com/u/118588651?v=4" alt="Edwin George" class="profile-img">
+        <div class="profile-section">
+            <img src="https://avatars.githubusercontent.com/u/118588651?v=4" alt="Edwin George" class="profile-img">
+        </div>
 
-        <section>
-            <h2 class="section-title">Profession</h2>
-            <p class="section-content">
-                I am a passionate Robotics Engineer with hands-on experience in ROS (Robot Operating System), Python programming, autonomous systems, and embedded systems. I have worked with various robots, including mobile manipulators, robotic arms, and autonomous mobile robots, specializing in control, navigation, and perception systems.
-            </p>
-        </section>
+        <div class="section-card">
+            <h2 class="section-title">Professional Summary</h2>
+            <p>Passionate Robotics Engineer with expertise in ROS, autonomous systems, and embedded development. Proven track record in designing and implementing robotic solutions for industrial applications. Strong background in control systems, computer vision, and mechatronic integration.</p>
+        </div>
 
-        <section>
-            <h2 class="section-title">Education</h2>
-            <p class="section-content">
-                I hold a Master's degree in Robotics and Automation Engineering from the College of Engineering Trivandrum (2024). I also earned a Bachelor's degree in Electrical and Electronics Engineering in 2022.
-            </p>
-        </section>
-
-        <section>
+        <div class="section-card">
             <h2 class="section-title">Experience</h2>
-            <p class="section-content">
-                I have completed internships in the field of robotics, including:
-                <ul>
-                    <li><strong>Asimov Robotics:</strong> Software Intern (May 2023 - July 2023) - Worked on an auto-docking system using IR emitters and receivers for mobile robots (ROS1).</li>
-                    <li><strong>UST Global:</strong> Academic Intern (January 2024 - March 2024) - Developed a mecanum wheel-based autonomous mobile robot.</li>
-                    <li><strong>Alphadroid:</strong> Robotics Engineer Intern (Currently working) - Involved in projects......</li>
-                </ul>
-            </p>
-        </section>
+            <div class="experience-item">
+                <div class="experience-company">Alphadroid</div>
+                <div class="experience-date">Current</div>
+                <p>Robotics Engineer Intern - Developing advanced robotic systems for industrial automation applications.</p>
+            </div>
+            <!-- Add other experience items similarly -->
+        </div>
 
-        <section>
-            <h2 class="section-title">Skills</h2>
-            <p class="section-content">
-                - Robotics: ROS1/ROS2, SLAM, Navigation<br>
-                - Programming: Python, C++, MATLAB<br>
-                - Embedded Systems: Arduino, Raspberry Pi<br>
-                - Software: Fusion 360, Git<br>
-                - Computer Vision: Intel RealSense, YOLOv8, 6D Pose Estimation
-            </p>
-        </section>
+        <div class="section-card">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">ROS/ROS2</div>
+                <div class="skill-tag">Python/C++</div>
+                <div class="skill-tag">SLAM Navigation</div>
+                <div class="skill-tag">Embedded Systems</div>
+                <div class="skill-tag">Computer Vision</div>
+                <div class="skill-tag">Fusion 360</div>
+            </div>
+        </div>
 
-        <section>
-            <h2 class="section-title">Projects</h2>
-            <p class="section-content">
-                Some of the key projects I have worked on include:
-                <ul>
-                    <li>Wavepoint Navigation in ROS Noetic</li>
-                    <li>Butler Robot for Café Environment with ROS</li>
-
-                </ul>
-            </p>
-        </section>
+        <div class="section-card">
+            <h2 class="section-title">Education</h2>
+            <p><strong>M.Sc. Robotics & Automation</strong><br>
+            College of Engineering Trivandrum (2024)</p>
+        </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Edwin George | All Rights Reserved</p>
+        <p>&copy; 2024 Edwin George | Connect on <a href="#" style="color: #fff; text-decoration: none;">LinkedIn</a> | View <a href="#" style="color: #fff; text-decoration: none;">GitHub</a></p>
     </footer>
 </body>
 </html>
