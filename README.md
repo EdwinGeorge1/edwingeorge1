@@ -26,7 +26,7 @@ I'm a **Robotics Engineer Intern** at **Alphadroid**, where I work on developing
 
 ### 📫 Get in Touch
 
-- 📧 Email: tgaedwin@gmai.com *(replace with your real email)*  
+- 📧 Email: tgaedwin@gmai.com 
 
 
 ---
