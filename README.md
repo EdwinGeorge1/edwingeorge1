@@ -1,5 +1,5 @@
 ## Hi there 👋 I'm Edwin George
-
+![Profile Views](https://komarev.com/ghpvc/?username=edwingeorge1&color=blue)
 🚀 Passionate about robotics, automation, and intelligent systems.
 
 ### 👨‍💻 About Me
