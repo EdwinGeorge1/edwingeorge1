@@ -1,16 +1,34 @@
-## Hi there 👋
+## Hi there 👋 I'm Edwin George
 
-<!--
-**EdwinGeorge1/edwingeorge1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Passionate about robotics, automation, and intelligent systems.
 
-Here are some ideas to get you started:
+### 👨‍💻 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm a **Robotics Engineer Intern** at **Alphadroid**, where I work on developing advanced robotic systems for industrial automation. I'm particularly interested in the intersection of **computer vision**, **robotics**, and **AI**.
+
+
+---
+
+### 🔧 Technologies & Tools
+
+- **Programming:** Python, C++, ROS2  
+- **Robotics:** OpenCV, YOLO, RViz  
+- **Platforms:** Ubuntu, Docker, Git, FastAPI  
+- **Tools:** VSCode, Gazebo, RViz
+
+---
+
+### 🌱 Currently Learning
+
+- Deployment of robotic systems using ROS2 and Docker  
+
+---
+
+### 📫 Get in Touch
+
+- 📧 Email: tgaedwin@gmai.com *(replace with your real email)*  
+
+
+---
+
+> ⚡ *“Robots are not just machines; they’re the future of intelligent work.”*
