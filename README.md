@@ -1,11 +1,12 @@
-## Hi there 👋 I'm Edwin George
-![Profile Views](https://komarev.com/ghpvc/?username=edwingeorge1&color=blue)
+## Hi there 👋 I'm Edwin George  
+![Profile Views](https://komarev.com/ghpvc/?username=edwingeorge1&color=blue)  
 🚀 Passionate about robotics, automation, and intelligent systems.
+
+---
 
 ### 👨‍💻 About Me
 
-I'm a **Robotics Engineer Intern** at **Alphadroid**, where I work on developing advanced robotic systems for industrial automation. I'm particularly interested in the intersection of **computer vision**, **robotics**, and **AI**.
-
+I'm a **Robotics Engineer** with a focus on developing advanced robotic systems for industrial and intelligent automation. I’m deeply interested in the intersection of **robotics**, **computer vision**, and **AI**, and how they come together to create smarter, more capable machines.
 
 ---
 
@@ -14,7 +15,7 @@ I'm a **Robotics Engineer Intern** at **Alphadroid**, where I work on developing
 - **Programming:** Python, C++, ROS2  
 - **Robotics:** OpenCV, YOLO, RViz  
 - **Platforms:** Ubuntu, Docker, Git, FastAPI  
-- **Tools:** VSCode, Gazebo, RViz
+- **Tools:** VSCode, Gazebo, RViz  
 
 ---
 
@@ -26,8 +27,7 @@ I'm a **Robotics Engineer Intern** at **Alphadroid**, where I work on developing
 
 ### 📫 Get in Touch
 
-- 📧 Email: tgaedwin@gmai.com 
-
+- 📧 Email: tgaedwin@gmai.com  
 
 ---
 
