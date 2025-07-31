@@ -13,7 +13,6 @@ I'm a **Robotics Engineer** with a focus on developing advanced robotic systems 
 ### 🔧 Technologies & Tools
 
 - **Programming:** Python, C++, ROS2  
-- **Robotics:** OpenCV, YOLO, RViz  
 - **Platforms:** Ubuntu, Docker, Git, FastAPI  
 - **Tools:** VSCode, Gazebo, RViz  
 
